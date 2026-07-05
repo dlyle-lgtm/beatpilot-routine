@@ -21,6 +21,14 @@ Three independent jobs. Each produces one vertical (1080x1920, 9:16) Reel and sc
 
 **Name YouTube explicitly — don't soften it into generic language**: "AI market intelligence" or "AI-powered analytics" is vague enough to read as a generic business tool and loses BeatPilot's actual differentiator. Every piece of creative must state "YouTube" outright somewhere in the copy (e.g. "YouTube market intelligence for beat producers," not "AI market intelligence for beat producers") — that's the specific mechanism producers actually care about, and dropping it to sound more polished is a regression, not an improvement.
 
+**Optimize for conversion, not template compliance**: the goal of every ad this skill makes is the highest-converting piece of creative it can reason its way to — not a fixed formula applied the same way every time. Treat the structure and rules below as strong defaults to reason from, not a checklist to satisfy mechanically. If a genuinely stronger angle occurs to you for a specific run — a sharper pain callout, a more specific stat, a better pattern interrupt — take it, as long as it doesn't violate the hard guardrails (no fabricated claims/testimonials/pricing, no blue, no missing logo/URL, YouTube named explicitly).
+
+*Lead with the pain, not the brand*: the first 1-2 seconds decide whether someone stops scrolling, and that's not where brand recognition does any work yet — the pain callout is what earns the stop. Structure every piece so the pattern-interrupt (the blunt, specific pain statement, in big text) is the very first thing seen, before any logo mark or brand reveal. The logo, the BeatPilot name, and the URL come after the pain has already landed — as the payoff/reveal, not the opener. Never lead with the logo or brand name as the first beat.
+
+*Use real, specific features — never generic trust badges*: "Private and Secure," "Works Anywhere," or similar generic SaaS badges say nothing a producer specifically cares about and read as filler. Use actual named BeatPilot capabilities instead — Niche Score, Upload Timing, Competitor Tracker, Thumbnail Analyzer, Opportunity Engine — since naming a real, specific feature is both more credible and more interesting than a stock trust signal.
+
+*Vary the hook angle run to run*: repeating the same opening line or structure every time causes fatigue and stops working as a scroll-stopper. Rotate between a few distinct angles across runs — a blunt pain callout, a real specific stat framed as a question ("X beats uploaded this week — how many actually got seen?"), a myth-bust ("more uploads ≠ more views") — and check the Ad-Reel Log before generating so this run's angle isn't a repeat of the last one logged.
+
 **Think like a marketer, not just a designer**: before generating any headline, subline, or on-image copy, reason through it the way a marketer writing for a specific audience would — not by cloning a reference's structure and swapping in BeatPilot's name and colors.
 
 *Who you're talking to*: independent YouTube beatmakers and producers, roughly 18-34, mostly US/UK/Canada/Australia. They live in FL Studio or Ableton, post "type beats," check view counts obsessively, and talk in their own shorthand — type beat, tags, niche, drop, upload, algorithm, views. They are not enterprise SaaS buyers. Copy that sounds like generic startup marketing ("streamline your workflow," "unlock your potential," "elevate your process") will read as fake and out of place to this audience. Write the way one producer would talk to another, not the way a landing page talks to a business buyer.
@@ -43,7 +51,7 @@ Skip anything resembling "trusted by thousands of producers" or a specific-numbe
 2. Use Higgsfield to generate a fresh ad creative based on that reference, remapped to BeatPilot branding, at 1080x1920 (9:16). One image generation call — never generate video directly for this job.
 3. ffmpeg: hold the image for 15s with a subtle Ken Burns zoom, synced to an Audio Files track, per the shared output spec.
 4. Schedule via Blotato at the next free slot.
-5. Append to the **Ad-Reel Log** (a doc in the BeatPilot-Info Drive folder — create if missing): which reference image and which Higgsfield generation were used.
+5. Append to the **Ad-Reel Log** (a doc in the BeatPilot-Info Drive folder — create if missing): which reference image, which Higgsfield generation, and which hook angle (pain callout / stat question / myth-bust / other) were used, so the next run can check this and avoid repeating the same angle back to back.
 
 ## Job 2 — Producer Tips → info-reel
 
@@ -82,4 +90,5 @@ If audio runs shorter or longer than the assembled video, trim whichever is long
 - Never generate video directly through Higgsfield for any of these jobs — image generation + ffmpeg assembly only; that's the entire cost rationale for this skill existing.
 - Never post to a platform other than Instagram, regardless of what "all social media" might suggest, until the `@beatpilotnow` collision is resolved.
 - Never reuse a topic already marked used in that specific job's own log — the three jobs' logs are independent of each other and of the carousel pipeline's Used-Topics-Log.
-- Never fabricate on-image claims, testimonials, or
+- Never fabricate on-image claims, testimonials, or specific prices.
+- If ffmpeg isn't available and can't be installed, stop and say so rather than posting a broken or missing video.
