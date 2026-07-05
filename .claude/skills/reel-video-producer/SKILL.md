@@ -17,7 +17,19 @@ Three independent jobs. Each produces one vertical (1080x1920, 9:16) Reel and sc
 
 **Brand**: any newly generated image must use the current "High Voltage" palette (lime + violet) — never the retired blue accent. Never include unverified testimonials, customer claims, or unconfirmed pricing in any on-image text or caption.
 
-**Explain the product, not just the hook**: a reference ad's attention-grabbing structure (a bold headline, a "before/after" split, a vague pain-point line) is worth cloning, but never at the expense of clarity. Every piece of creative this skill produces — ad reels, info-reels, carousel reels — must make it obvious to someone with zero prior context that BeatPilot is a market-intelligence tool for YouTube beatmakers/producers (tracking what's trending, sizing opportunities, analyzing competition) — not just an evocative tagline that assumes the viewer already knows what BeatPilot does. If remapping a reference's headline produces something abstract (e.g. a "chaos to control" hook with no mention of YouTube, beats, producers, or what the tool tracks), rewrite it or add a clear supporting line so the "what is this" question is answered within the first couple seconds, not left for the viewer to guess.
+**Think like a marketer, not just a designer**: before generating any headline, subline, or on-image copy, reason through it the way a marketer writing for a specific audience would — not by cloning a reference's structure and swapping in BeatPilot's name and colors.
+
+*Who you're talking to*: independent YouTube beatmakers and producers, roughly 18-34, mostly US/UK/Canada/Australia. They live in FL Studio or Ableton, post "type beats," check view counts obsessively, and talk in their own shorthand — type beat, tags, niche, drop, upload, algorithm, views. They are not enterprise SaaS buyers. Copy that sounds like generic startup marketing ("streamline your workflow," "unlock your potential," "elevate your process") will read as fake and out of place to this audience. Write the way one producer would talk to another, not the way a landing page talks to a business buyer.
+
+*Their actual pain*: they spend hours making a beat, upload it, and have no real visibility into whether it'll get any traction — no idea what's already oversaturated, what's actually trending, or when to post for the best shot at being seen. Most of their effort goes into beats nobody was searching for in the first place. That's the exact wound BeatPilot addresses: replacing guesswork with real market data before they spend the time producing.
+
+*The throughline every piece of creative should hit, in order*:
+1. Name the pain in their language (e.g. "you just spent six hours on a beat nobody's gonna search for")
+2. State plainly what BeatPilot is and who it's for — YouTube market intelligence for beat producers — not implied through icons, stated in words
+3. Say what it lets them do differently (know what's trending, what's saturated, and when to post, before they make anything)
+4. Give a reason to care right now — curiosity or genuine relevance, not a fake urgency countdown
+
+Skip anything resembling "trusted by thousands of producers" or a specific-number social-proof claim — there's no real customer base yet, so that line would be fabricated regardless of how it's phrased. Lean on the specificity of the pain point and the mechanism instead of borrowed credibility.
 
 **Posting**: schedule via `blotato_create_post` with `useNextFreeSlot: true`. "All social media" currently means **Instagram only** — that's the only platform connected in Blotato right now, and expansion is blocked pending the open `@beatpilotnow` collision Notion card. Never post to another platform even if one later appears connected, unless a Notion card has explicitly approved it.
 
