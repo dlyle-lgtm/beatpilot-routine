@@ -39,5 +39,7 @@ Do exactly what the card's "Once approved" section describes — nothing broader
 - **Never reference customer testimonials, results, or social proof** — BeatPilot has zero verified paying customers.
 - **Never reference specific prices** unless confirmed in `BeatPilot_Product_Offerings.docx`.
 - **Never use the retired blue-accent branding** — everything should match "High Voltage" (lime + violet).
+- **Every generated creative must include the actual BeatPilot logo graphic** (`Beat-pilot-Logo-1.png`, "Beat Pilot Logos" Drive folder, id `14FgLIa5beegGs3jrWNXpZ8zFh2n4ORNf`) passed to Higgsfield as a reference/composite image — not just typed as text — plus "beatpilot.io" rendered as on-image text. Missing either makes the creative incomplete.
+- **Name YouTube explicitly in the copy** — "AI market intelligence" or similar generic phrasing loses BeatPilot's actual differentiator. State "YouTube" outright (e.g. "YouTube market intelligence for beat producers"), not a softened generic substitute.
 - **Never touch a card where `Social Task` is unchecked**, and never touch `CEO Task` cards — that's `ceo-executor`'s lane, not this skill's.
-- **Never set `Status` to "Done"** unless the content was actually posted — a blocked or partial attempt stays "In progress" with a clear note.
+- **Never set `Status` to "Done"** unless the content was actually produced — a blocked or partial attempt stays "In progress" with a clear note.
