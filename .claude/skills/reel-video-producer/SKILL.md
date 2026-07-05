@@ -17,6 +17,10 @@ Three independent jobs. Each produces one vertical (1080x1920, 9:16) Reel and sc
 
 **Brand**: any newly generated image must use the current "High Voltage" palette (lime + violet) — never the retired blue accent. Never include unverified testimonials, customer claims, or unconfirmed pricing in any on-image text or caption.
 
+**Logo and URL, every time, no exceptions**: every piece of creative this skill produces must visually include the actual BeatPilot logo graphic (`Beat-pilot-Logo-1.png`, in the "Beat Pilot Logos" Drive folder, id `14FgLIa5beegGs3jrWNXpZ8zFh2n4ORNf`) — not just the wordmark typed as text — and the URL "beatpilot.io" rendered as on-image text. Pass the logo file as a reference/composite image to Higgsfield on every generation call so it's actually present in the creative, not something added after the fact. A finished piece missing either the logo graphic or the URL text is incomplete, regardless of how good the rest of the creative is.
+
+**Name YouTube explicitly — don't soften it into generic language**: "AI market intelligence" or "AI-powered analytics" is vague enough to read as a generic business tool and loses BeatPilot's actual differentiator. Every piece of creative must state "YouTube" outright somewhere in the copy (e.g. "YouTube market intelligence for beat producers," not "AI market intelligence for beat producers") — that's the specific mechanism producers actually care about, and dropping it to sound more polished is a regression, not an improvement.
+
 **Think like a marketer, not just a designer**: before generating any headline, subline, or on-image copy, reason through it the way a marketer writing for a specific audience would — not by cloning a reference's structure and swapping in BeatPilot's name and colors.
 
 *Who you're talking to*: independent YouTube beatmakers and producers, roughly 18-34, mostly US/UK/Canada/Australia. They live in FL Studio or Ableton, post "type beats," check view counts obsessively, and talk in their own shorthand — type beat, tags, niche, drop, upload, algorithm, views. They are not enterprise SaaS buyers. Copy that sounds like generic startup marketing ("streamline your workflow," "unlock your potential," "elevate your process") will read as fake and out of place to this audience. Write the way one producer would talk to another, not the way a landing page talks to a business buyer.
@@ -78,5 +82,4 @@ If audio runs shorter or longer than the assembled video, trim whichever is long
 - Never generate video directly through Higgsfield for any of these jobs — image generation + ffmpeg assembly only; that's the entire cost rationale for this skill existing.
 - Never post to a platform other than Instagram, regardless of what "all social media" might suggest, until the `@beatpilotnow` collision is resolved.
 - Never reuse a topic already marked used in that specific job's own log — the three jobs' logs are independent of each other and of the carousel pipeline's Used-Topics-Log.
-- Never fabricate on-image claims, testimonials, or specific prices.
-- If ffmpeg isn't available and can't be installed, stop and say so rather than posting a broken or missing video.
+- Never fabricate on-image claims, testimonials, or
