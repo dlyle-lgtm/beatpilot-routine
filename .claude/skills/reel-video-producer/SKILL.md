@@ -17,6 +17,8 @@ Three independent jobs. Each produces one vertical (1080x1920, 9:16) Reel and sc
 
 **Brand**: any newly generated image must use the current "High Voltage" palette (lime + violet) — never the retired blue accent. Never include unverified testimonials, customer claims, or unconfirmed pricing in any on-image text or caption.
 
+**Explain the product, not just the hook**: a reference ad's attention-grabbing structure (a bold headline, a "before/after" split, a vague pain-point line) is worth cloning, but never at the expense of clarity. Every piece of creative this skill produces — ad reels, info-reels, carousel reels — must make it obvious to someone with zero prior context that BeatPilot is a market-intelligence tool for YouTube beatmakers/producers (tracking what's trending, sizing opportunities, analyzing competition) — not just an evocative tagline that assumes the viewer already knows what BeatPilot does. If remapping a reference's headline produces something abstract (e.g. a "chaos to control" hook with no mention of YouTube, beats, producers, or what the tool tracks), rewrite it or add a clear supporting line so the "what is this" question is answered within the first couple seconds, not left for the viewer to guess.
+
 **Posting**: schedule via `blotato_create_post` with `useNextFreeSlot: true`. "All social media" currently means **Instagram only** — that's the only platform connected in Blotato right now, and expansion is blocked pending the open `@beatpilotnow` collision Notion card. Never post to another platform even if one later appears connected, unless a Notion card has explicitly approved it.
 
 ## Job 1 — Ad reference → static ad reel
